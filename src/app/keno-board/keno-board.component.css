@@ -2,4 +2,9 @@
     text-align: center;
     line-height: 80px;
     height: 80px;
+    font-size: x-large;
+}
+
+.number-found {
+    color: black;
 }
