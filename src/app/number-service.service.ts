@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, of, Observer } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ export class NumberServiceService {
   constructor() { this.loadNumbers(); }
 
   loadNumbers() {
-    for (var i = 0; i <= 20; i++) {
+    for (var i = 0; i < 20; i++) {
       let tempNbr = Math.floor(Math.random() * Math.floor(79)) + 1;
       while (this.numberArray.indexOf(tempNbr) > -1) {
         tempNbr = Math.floor(Math.random() * Math.floor(79)) + 1;
@@ -19,7 +19,7 @@ export class NumberServiceService {
   }
 
   getNumbers(observer) {
-    
+    this.loadNumbers();
     let timeoutId;
   
     // Will run through an array of numbers, emitting one value
@@ -32,7 +32,7 @@ export class NumberServiceService {
         } else {
           doSequence(arr, ++idx);
         }
-      }, 1000);
+      }, 10000);
     }
   
     doSequence(this.numberArray, 0);

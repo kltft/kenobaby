@@ -5,6 +5,60 @@
     font-size: x-large;
 }
 
-.number-found {
+.even-number-found {
     color: black;
+    animation-name: foundEven;
+    animation-duration: 1s;
+    background: pink;
 }
+
+@keyframes foundEven {
+    0%   {background-color: pink;}
+    25%  {background-color: black;}
+    50%  {background-color: pink;}
+    100% {background-color: black;}
+  }
+
+  .odd-number-found {
+    color: black;
+    animation-name: foundEven;
+    animation-duration: 1s;
+    background: powderblue;
+}
+
+@keyframes foundodd {
+    0%   {background-color: powderblue;}
+    25%  {background-color: black;}
+    50%  {background-color: powderblue;}
+    100% {background-color: black;}
+  }
+
+#newGameBtn {
+    color: black;
+    background: orangered;
+}
+ .gifDiv {
+     /* opacity: 1n; */
+    position:absolute;
+    left: 215px;
+    top: 180px;
+    display: inline;
+    /* animation: fade 7s linear; */
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+  #gif {
+     width: 360px;
+     height: 308px;      
+  }
+
+  .game-id {
+      font-weight: bolder;
+      font-size: large;
+      margin: 0;
+  }
