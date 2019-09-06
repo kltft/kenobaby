@@ -112,58 +112,58 @@ export class KenoBoardComponent implements OnInit {
 
   provideGif() {
     var nbr = this.currentNumber;
-    var gif = "../../assets/images/black.png";
+    var gif = "assets/images/black.png";
     if(nbr == 1 || nbr == 17 || nbr == 33 || nbr == 49 || nbr == 65)
     {
-      gif = "../../assets/images/McBaby.gif";
+      gif = "assets/images/McBaby.gif";
     }
     if(nbr == 2 || nbr == 18 || nbr == 34 || nbr == 50 || nbr == 66)
     {
-      gif = "../../assets/images/beer.gif";
+      gif = "assets/images/beer.gif";
     }
     if(nbr == 3 || nbr == 19 || nbr == 35 || nbr == 51 || nbr == 67)
     {
-      gif = "../../assets/images/bunny_thief.gif";
+      gif = "assets/images/bunny_thief.gif";
     }
     if(nbr == 4 || nbr == 20 || nbr == 36 || nbr == 52 || nbr == 68)
     {
-      gif = "../../assets/images/dance.gif";
+      gif = "assets/images/dance.gif";
     }if(nbr == 5 || nbr == 21 || nbr == 37 || nbr == 53 || nbr == 69)
     {
-      gif = "../../assets/images/eff_you.gif";
+      gif = "assets/images/eff_you.gif";
     }if(nbr == 6 || nbr == 22 || nbr == 38 || nbr == 54 || nbr == 70)
     {
-      gif = "../../assets/images/excited.gif";
+      gif = "assets/images/excited.gif";
     }if(nbr == 7 || nbr == 23 || nbr == 39 || nbr == 55 || nbr == 71)
     {
-      gif = "../../assets/images/gnar.gif";
+      gif = "assets/images/gnar.gif";
     }if(nbr == 8 || nbr == 24 || nbr == 40 || nbr == 56 || nbr == 72)
     {
-      gif = "../../assets/images/myPrez.gif";
+      gif = "assets/images/myPrez.gif";
     }if(nbr == 9 || nbr == 25 || nbr == 41 || nbr == 57 || nbr == 73)
     {
-      gif = "../../assets/images/phone.gif";
+      gif = "assets/images/phone.gif";
     }if(nbr == 10 || nbr == 26 || nbr == 42 || nbr == 58 || nbr == 74)
     {
-      gif = "../../assets/images/puppy_rocker.gif";
+      gif = "assets/images/puppy_rocker.gif";
     }if(nbr == 11 || nbr == 27 || nbr == 43 || nbr == 59 || nbr == 75)
     {
-      gif = "../../assets/images/rage.gif";
+      gif = "assets/images/rage.gif";
     }if(nbr == 12 || nbr == 28 || nbr == 44 || nbr == 60 || nbr == 76)
     {
-      gif = "../../assets/images/respect.gif";
+      gif = "assets/images/respect.gif";
     }if(nbr == 13 || nbr == 29 || nbr == 45 || nbr == 61 || nbr == 77)
     {
-      gif = "../../assets/images/rock_on.gif";
+      gif = "assets/images/rock_on.gif";
     }if(nbr == 14 || nbr == 30 || nbr == 46 || nbr == 62 || nbr == 78)
     {
-      gif = "../../assets/images/shocked.gif";
+      gif = "assets/images/shocked.gif";
     }if(nbr == 15 || nbr == 31 || nbr == 47 || nbr == 63 || nbr == 79)
     {
-      gif = "../../assets/images/ski.gif";
+      gif = "assets/images/ski.gif";
     }if(nbr == 16 || nbr ==32 || nbr == 48 || nbr == 64 || nbr == 80)
     {
-      gif = "../../assets/images/spoon.gif";
+      gif = "assets/images/spoon.gif";
     }    
     return gif;
   }
